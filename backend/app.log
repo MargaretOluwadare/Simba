@@ -1,0 +1,78 @@
+2026-03-25 20:36:52,639 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 20:44:43,514 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\wallet\models.py changed, reloading.
+2026-03-25 20:44:47,528 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 20:50:17,195 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\pets\models.py changed, reloading.
+2026-03-25 20:50:20,686 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 20:50:23,483 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\pets\models.py changed, reloading.
+2026-03-25 20:50:26,152 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 20:50:39,269 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\chat\models.py changed, reloading.
+2026-03-25 20:50:40,677 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 20:51:11,112 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\core\models.py changed, reloading.
+2026-03-25 20:51:13,624 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 20:51:52,384 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\chat\models.py changed, reloading.
+2026-03-25 20:51:53,961 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 20:56:21,994 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\chat\models.py changed, reloading.
+2026-03-25 20:56:25,408 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 21:11:22,106 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 21:12:21,947 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 21:13:38,895 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 21:14:19,924 | ERROR | django.security.DisallowedHost | Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2026-03-25 21:14:21,615 | ERROR | django.security.DisallowedHost | Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2026-03-25 21:14:22,994 | ERROR | django.security.DisallowedHost | Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2026-03-25 21:14:23,310 | ERROR | django.security.DisallowedHost | Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\utils\deprecation.py", line 308, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Documents\tito\projects\simba\backend\venv\Lib\site-packages\django\http\request.py", line 205, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+2026-03-25 21:17:07,475 | INFO | django.utils.autoreload | C:\Users\HP\Documents\tito\projects\simba\backend\simba\urls.py changed, reloading.
+2026-03-25 21:17:10,140 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 21:18:09,266 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
+2026-03-25 21:19:09,258 | INFO | django.utils.autoreload | Watching for file changes with StatReloader
