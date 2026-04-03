@@ -2,7 +2,7 @@ from rest_framework.permissions import AllowAny
 from rest_framework.views import status
 from rest_framework.viewsets import GenericViewSet, ModelViewSet
 from rest_framework.views import APIView
-from rest_framework.mixins import ListModelMixin, UpdateModelMixin
+from rest_framework import serializers
 
 from core.utils import APIResponse, hash_code
 from core.services import send_reset_password_email, logToSlack, send_verification_email
@@ -34,6 +34,7 @@ from wallet.serializers import WalletSerializer, TransactionSerializer
 from django.db.models.functions import TruncDate
 from random import randint
 
+# todo: replace all genericviewsets with APIView
 
 # Create your views here.
 class UserRegisterViewSet(GenericViewSet, APIResponse):
@@ -215,6 +216,7 @@ class ResetPasswordViewset(GenericViewSet, APIResponse):
 
     permission_classes = [AllowAny]
     authentication_classes = []
+    serializer_class = ResetPasswordSerializer
 
     def create(self, request):
         serializer = ResetPasswordSerializer(data=request.data)
@@ -279,6 +281,7 @@ class ResetPasswordViewset(GenericViewSet, APIResponse):
 
 class LogoutViewSet(GenericViewSet, APIResponse):
     permission_classes = [IsAuthenticated, IsValidUser]
+    serializer = serializers.Serializer
 
     def create(self, request):
         token = request.data["refresh"]
